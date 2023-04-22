@@ -1,13 +1,13 @@
 {
-  "name": "fh-my-storybook-components",
+  "name": "jv-my-storybook-components",
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "homepage": "https://fernando-herrera.com",
+  "homepage": "https://jhoan-vasquez.com",
   "repository": {
-    "url": "https://github.com/Klerith/sb-components",
+    "url": "https://github.com/jhoanvasquez/storybook.git",
     "type": "git"
   },
   "peerDependencies": {
@@ -74,15 +74,15 @@
     "chromatic": "^6.0.4",
     "copyfiles": "^2.4.1",
     "css-loader": "^6.4.0",
-    "rimraf": "^3.0.2",
-    "semantic-release": "^18.0.0"
+    "rimraf": "^4.4.1",
+    "semantic-release": "18.0.0"
   },
   "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      "@semantic-release/github",
-      "@semantic-release/npm",
-      "@semantic-release/git"
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/npm",
+    "@semantic-release/git"
   ]
 }
